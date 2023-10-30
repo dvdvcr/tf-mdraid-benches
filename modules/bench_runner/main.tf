@@ -14,7 +14,7 @@ resource "aws_instance" "ec2_bench_box" {
   connection {
     type        = "ssh"
     user        = var.user
-    private_key = file("~/.ssh/id_rsa")
+    private_key = var.privkey
     host        = aws_instance.ec2_bench_box.public_ip
   }
 
