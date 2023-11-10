@@ -1,11 +1,11 @@
 # what
-This tool is intended to benchmark different block device and software raid configurations on ec2 instances. Add some entries to benches_plan with corresponding scripts under bin/.
+This tool is intended to benchmark different block device and software raid configurations on ec2 instances.
 
 # why
-Find clever ways to meet a workload's iops and reliability requirements while optimizing resource use, *particularly in cases where the provisioned IOPS model has diminshing returns on cost savings*.
+Discover new ways to meet a workload's iops and reliability requirements while optimizing resource use, *particularly in cases where the provisioned IOPS model has diminshing returns on cost savings*.
 
 # why software raid on EC2?
-mdadm has lesser-known options not covered in the example scripts provided. Enterprising individuals with certain workloads might be able to leverage them for cost, reliability, or performance...
+mdadm has lesser-known options not covered in the example scripts provided. Certain workloads might be able to leverage them for cost, reliability, or performance.
 
 # usage
 Adjust the top-level variables.tf file.
