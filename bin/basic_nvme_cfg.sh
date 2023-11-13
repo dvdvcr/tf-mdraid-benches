@@ -1,5 +1,6 @@
 #!/bin/bash
 # extremely ugly example script for building md and running some benchmarks.
+# note: build mdraid volumes with udev's /dev/disk/by-uuid paths in prod
 
 yum-complete-transaction &>/dev/null
 yum install -y hdparm fio
